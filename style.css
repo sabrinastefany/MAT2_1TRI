@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+}
+
+.cabecalho-imagem{
+    width: 30%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.sistema-solar-imagem{
+    width: 25%;
+}
+
+.sistema-solar{
+    background-image: linear-gradient(#000000,#3c00ac);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sistema-solar-titulo{
+    padding: 24px 0;
+}
+
+.sistema-solar-div-conteudo{
+    width: 35%;
+}
+
+.galaxias-imagem{
+    width: 20%;
+}
+
+.galaxias{
+    background-image: linear-gradient(#3c00ac,#000000);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.galaxias-titulo{
+    padding: 20px 0;
+}
+
+.galaxias-div-conteudo{
+    width: 40%;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.rodape-imagem-um{
+    width: 3%;
+    
+}
+.rodape-imagem-dois{
+    width: 3%;
+
+}
